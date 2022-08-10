@@ -1,0 +1,16 @@
+.logo-white {
+    display: inline-block;
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $color-logo;
+    text-decoration: none;
+
+    margin-bottom: 20px;
+}
+
+.logo-white__label {
+    color: $third-text-color;
+}

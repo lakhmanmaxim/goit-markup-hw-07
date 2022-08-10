@@ -1,0 +1,16 @@
+.logo-black {
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $color-logo;
+    text-decoration: none;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-black__label {
+    color: $main-text-color;
+}
