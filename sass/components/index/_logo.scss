@@ -1,4 +1,4 @@
-.logo-black {
+.logo {
     font-family: $logo-font;
     font-weight: 700;
     font-size: 26px;
@@ -11,6 +11,16 @@
     padding-bottom: 24px;
 }
 
-.logo-black__label {
+.logo__black {
     color: $main-text-color;
+}
+
+.logo__white {
+    color: $third-text-color;
+}
+
+.logo__footer {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0;
 }

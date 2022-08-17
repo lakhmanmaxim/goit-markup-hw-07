@@ -1,14 +1,4 @@
-.clients__title {
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 36px;
-}
-
-.clients__list {
+.clients {
     display: flex;
     justify-content: space-between;
 }
@@ -30,12 +20,8 @@
         border-color 250ms $transition-timing-function,
         fill 250ms $transition-timing-function;
 
-    &:hover {
-        fill: $hover-color;
-        border-color: $hover-color;
-    }
-
-   &:focus {
+    &:hover,
+    &:focus {
         fill: $hover-color;
         border-color: $hover-color;
     }

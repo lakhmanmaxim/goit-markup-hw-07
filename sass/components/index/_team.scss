@@ -1,19 +1,4 @@
-.section--team {
-    background-color: $bg-color-second;
-
-}
-
-.team__title {
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team__list {
+.team {
     display: flex;
     padding-left: 0;
     margin-top: 0;
@@ -36,4 +21,31 @@
 
 .team__item:first-child {
     margin-left: 0;
+}
+
+.team-box {
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+
+.team__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+}
+
+.team__text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $second-text-color;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    margin-top: 0;
+    margin-bottom: 16px;
 }
